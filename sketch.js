@@ -48,7 +48,7 @@ function draw() {
  fill (255,255,255)
 
  if(lastFed>=12){
-   text("Last Feed:"+LastFeed%12+"PM",350,30)
+   text("Last Feed:"+LastFed%12+"PM",350,30)
  }else if(lastFed==0){
    text("Last Feed:12 AM",350,30)
  }else{
